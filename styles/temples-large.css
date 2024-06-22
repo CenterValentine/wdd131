@@ -1,0 +1,82 @@
+@media screen and (max-width: 52rem) {
+
+    * {
+        /* font-family: 'Arial Narrow', Arial, sans-serif; */
+    }
+
+    main div {
+        grid-template-columns: 1fr;
+    }
+
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+
+        margin-left: 0%;
+    }
+
+    #hamburger-menu {
+        display: unset;
+    }
+
+    #hamburger-menu::before {
+
+    }
+
+    .navigation button {
+        /* display: unset; */
+        padding-right:.65em;
+        font-size: 3rem;
+        /* background-color: var(--secondary-color);
+        color: var(--primary-color); */
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        border: none;
+        width: 100%;
+    }
+
+
+    button:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color)
+    }
+
+    .start,
+    .navigation {
+        margin-right: unset;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .start a {
+        font-weight: 800;
+    }
+
+    .navigation .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .menu a {
+        padding: 1.25rem 40rem;
+        display: none;
+    }
+
+    .show a {
+        padding: 1.25rem 40rem;
+        display: unset;
+    }
+
+    #hamburger-menu.open::before {
+        content: "x";
+        /* font-size: 50%; */
+        margin:auto;
+    }
+/* 
+    .show-menu a::before {
+        display: unset;
+    } */
+
+
+}
