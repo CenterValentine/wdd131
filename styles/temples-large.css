@@ -1,4 +1,4 @@
-@media screen and (max-width: 52rem) {
+@media screen and (max-width: 56rem) {
 
     * {
         /* font-family: 'Arial Narrow', Arial, sans-serif; */
@@ -19,13 +19,13 @@
         display: unset;
     }
 
+    /* 
     #hamburger-menu::before {
 
-    }
+    } */
 
     .navigation button {
-        /* display: unset; */
-        padding-right:.65em;
+
         font-size: 3rem;
         /* background-color: var(--secondary-color);
         color: var(--primary-color); */
@@ -58,8 +58,16 @@
         flex-direction: column;
     }
 
+    .menu {
+        margin: 0;
+        padding: 0;
+        /* margin-left: 1rem;
+    margin-right: 9%; */
+    }
+
+
     .menu a {
-        padding: 1.25rem 40rem;
+        /* padding: 1.25rem 40rem; */
         display: none;
     }
 
@@ -71,9 +79,10 @@
     #hamburger-menu.open::before {
         content: "x";
         /* font-size: 50%; */
-        margin:auto;
+        margin: auto;
     }
-/* 
+
+    /* 
     .show-menu a::before {
         display: unset;
     } */

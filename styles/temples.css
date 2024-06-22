@@ -3,16 +3,17 @@
 :root {
     --primary-color: #8daf6e;
     --secondary-color: white;
+    --focus-color: #80a062;
 
     --paragraph-font: 'Assistant', sans-serif;
     --heading-font: 'Assistant', sans-serif;
 
     --form-font: 'Assistant', sans-serif;
-
+    /* 
     --nav-background-color: #8daf6e;
     --nav-link-color: white;
     --nav-hover-link-color: white;
-    --nav-hover-background-color: #747572;
+    --nav-hover-background-color: #747572; */
 }
 
 * {
@@ -23,6 +24,11 @@
     color: var(--primary-color);
     /* min-width: 15rem; */
 }
+
+.active {
+    background-color: var(--focus-color);
+}
+
 
 header {
     margin: auto;
@@ -59,10 +65,6 @@ header {
     content: "☰";
 }
 
-#hamburger-menu.open::before {
-    content: "☰";
-}
-
 .navigation .menu {
     display: flex;
     /* gap: 2rem; */
@@ -70,13 +72,14 @@ header {
 
 .menu {
     justify-content: space-between;
-    margin-right: 7%;
+    margin-right: 9%;
+    margin-left: 5rem;
 }
 
 .menu a {
     margin: auto;
     padding: 1.25rem 2rem;
-    color: var(--nav-hover-link-color);
+    color: var(--secondary-color);
 }
 
 .navigation .menu a {
@@ -93,9 +96,9 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* align-content: center; */
+
     min-width: 15rem;
-    /* margin-left: 15rem; */
+
 }
 
 main h1 {
