@@ -98,6 +98,8 @@ main {
     align-self: stretch;
     align-items: flex-start;
     justify-content: flex-start;
+
+
 }
 
 .card div {
@@ -119,6 +121,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     overflow: hidden;
+
 }
 
 .card:nth-child(1) div:nth-child(2) p {
