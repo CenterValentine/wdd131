@@ -21,29 +21,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
 
 }
 
 .active {
     background-color: var(--focus-color);
+
 }
 
 
-header {
-    margin: auto;
-    background-color: var(--primary-color);
-    /* max-width: 60rem; */
-}
-
-.navigation {
+.navigation,
+footer {
     display: flex;
     flex-direction: row;
     font-size: larger;
     background-color: var(--primary-color);
+    color: var(--secondary-color);
     justify-content: center;
     align-items: center;
 }
+
+
+
+
 
 .navigation .start {
     /* margin-right: auto; */
@@ -67,7 +67,7 @@ header {
 
 .navigation .menu {
     display: flex;
-    /* gap: 2rem; */
+
 }
 
 .menu {
@@ -102,7 +102,7 @@ main {
 main h1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
-
+    color: var(--primary-color)
 }
 
 main div {
@@ -123,4 +123,14 @@ figure {
     /* margin: 1em, 1em, 1em, 1em; */
     margin: 2rem;
     text-align: left;
+    color: var(--primary-color);
+    /* background-color: var(--secondary-color); */
+
+}
+
+footer {
+    gap: 3rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    flex-direction: column;
 }
