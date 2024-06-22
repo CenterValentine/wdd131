@@ -82,6 +82,17 @@
         margin: auto;
     }
 
+
+
+    figure {
+        /* margin: 1em, 1em, 1em, 1em; */
+        margin: auto;
+        text-align: left;
+    }
+
+    figure img {
+        max-width: 90%; /* Allow the image to take full width of its container on smaller screens */
+    }
     /* 
     .show-menu a::before {
         display: unset;
