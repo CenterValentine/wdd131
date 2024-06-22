@@ -22,7 +22,7 @@
     box-sizing: border-box;
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    /* min-width: 15rem; */
+
 }
 
 .active {
@@ -39,10 +39,10 @@ header {
 .navigation {
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-size: larger;
     background-color: var(--primary-color);
-    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation .start {
@@ -96,8 +96,6 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    min-width: 15rem;
 
 }
 
