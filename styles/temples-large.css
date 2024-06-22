@@ -94,11 +94,4 @@
         max-width: 100%;
         /* Allow the image to take full width of its container on smaller screens */
     }
-
-    /* 
-    .show-menu a::before {
-        display: unset;
-    } */
-
-
 }
