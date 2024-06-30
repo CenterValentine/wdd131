@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panama</title>
+    <meta description="A site about Panama">
+    <meta author="David V">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place-mobile.css">
+</head>
+
+<body class="place">
+    <header class="place-head">
+        <div>
+            <h1>
+                <span>&bigstar;</span>
+                <span>Panamá </span>
+                <span>&bigstar; </span>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="place-hero">
+            <picture class="place-hero-img">
+                <source srcset="images/panama-canal-cropped.webp" media="(max-width: 800px)">
+                <img src="images/panama-canal-large-cropped.webp" alt="The Panama Canal">
+            </picture>
+        </div>
+        <div class="place-statistics-grid-flex">
+            <div class="place-stat-data stat-box">
+                <div>
+                    <div>
+                        <h2>Data</h2>
+                    </div>
+                    <table class="stat-table">
+                        <tr>
+                            <th>Population</th>
+                        </tr>
+                        <tr>
+                            <th>Language</th>
+                            <th>Spanish</th>
+                        </tr>
+                        <tr>
+                            <th>Currency</th>
+                            <th>USD</th>
+                        </tr>
+                        <tr>
+                            <th>Timezone</th>
+                            <th>EST</th>
+                        </tr>
+                        <tr>
+                            <th>Calling Code</th>
+                            <th>+49</th>
+                        </tr>
+                        <tr>
+                            <th>Destinations</th>
+                            <th>Info</th>
+                        </tr>
+                        <tr>
+                            <th>Cuisine</th>
+                            <th>Rdice and Baynes + Patacones</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="weather place-stat-weather stat-box">
+                <div>
+                    <div>
+                        <h2>Weather</h2>
+                    </div>
+                    <table class="stat-table">
+                        <tr>
+                            <th>Temp</th>
+                            <th>26 C°</th>
+                        </tr>
+                        <tr>
+                            <th>Conditions</th>
+                            <th>Partly Cloudy</th>
+
+                        </tr>
+                        <tr>
+                            <th>Wind</th>
+                            <th>8.04 kph</th>
+                        </tr>
+                        <tr>
+                            <th>Wind Chill</th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> </p>
+        <p>We are digging to Antarctica 🐧</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/getdates.js" defer></script>
+</body>
+<script src="scripts/place.js" defer>
+
+</script>
+
+</html>

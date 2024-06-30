@@ -1,0 +1,98 @@
+@media screen and (max-width: 800px) {
+    :root {
+        --primary-color: rgba(255, 0, 0, .90);
+        --secondary-color: rgba(0, 0, 255, 0.90);
+    }
+
+    .place-head {
+        background-color: var(--secondary-color);
+    }
+
+    .place-head h1 span:nth-child(1),
+    .place-head h1 span:nth-child(3) {
+        color: var(--primary-color)
+    }
+
+    .place-hero {
+        position: relative;
+        min-height: unset;
+        /* overflow: unset; */
+        height: auto;
+    }
+
+    .place-hero img {
+        object-fit: unset;
+        object-position: center;
+    }
+
+    .place-statistics-grid-flex {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat-box {
+        border-radius: 0;
+        color: var(--tertiary-color);
+        text-align: center;
+        margin-top: 0em;
+        padding-top: 1em;
+        background-color: var(--primary-color);
+        width: 100%;
+    }
+
+
+    .stat-box table {
+        /* background-color: var(--secondary-color); */
+        align-self: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .stat-box:nth-child(1) div div:nth-child(1) {
+        width: 100%;
+        margin: 0 0 0 2em;
+
+    }
+
+    .stat-box div div h2 {
+        color: var(--secondary-color)
+    }
+
+    .stat-box:nth-child(2) div div:nth-child(1) {
+        width: 95%;
+    }
+
+    .place-stat-data {
+        margin-right: 0;
+    }
+
+    .place-stat-weather {
+        margin-left: 0;
+        margin-bottom: 0em;
+    }
+
+
+    .weather div div h2::after {
+        display: none;
+    }
+
+    .stat-box h2 {
+        margin-left: 0;
+        color: var(--primary-color)
+    }
+
+    table {
+        width: 100%;
+        word-wrap: break-word;
+        max-width: 25em;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+
+
+}
