@@ -9,11 +9,17 @@ const newGallery = document.querySelector(".new");
 const largeGallery = document.querySelector(".large");
 const smallGallery = document.querySelector(".small");
 
+// select main div
+const activeSelection = document.querySelector('.active-selection');
+
+
+
 // remove "active" class from reg class elements
 function removeActive() {
     const active = document.querySelector(".active");
     if (active) {
         active.classList.remove("active");
+        activeSelection.textContent = "";
     }
 }
 
@@ -55,6 +61,7 @@ newGallery.addEventListener('click', () => {
     var templesdata = temples.filter(temple => parseInt(temple.dedicated.substring(0, 4)) > 2000);
     removeActive();
     dataToHTML(templesdata, newGallery);
+    activeSelection.textContent = "New";
 
 });
 
@@ -63,6 +70,7 @@ oldGallery.addEventListener('click', () => {
     var templesdata = temples.filter(temple => parseInt(temple.dedicated.substring(0, 4)) < 1900);
     removeActive();
     dataToHTML(templesdata, oldGallery);
+    activeSelection.textContent = "Old";
 });
 
 smallGallery.addEventListener('click', () => {
@@ -70,18 +78,21 @@ smallGallery.addEventListener('click', () => {
     var templesdata = temples.filter(temple => temple.area < 10000);
     removeActive();
     dataToHTML(templesdata, smallGallery);
+    activeSelection.textContent = "Small";
 });
 largeGallery.addEventListener('click', () => {
     console.log("oldGallery clicked")
     var templesdata = temples.filter(temple => temple.area > 90000);
     removeActive();
     dataToHTML(templesdata, largeGallery);
+    activeSelection.textContent = "Large";
 });
 
 home.addEventListener('click', () => {
     console.log("home clicked")
     removeActive();
     dataToHTML(temples, home);
+    activeSelection.textContent = "All";
 });
 
 
