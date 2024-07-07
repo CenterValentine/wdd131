@@ -74,6 +74,10 @@
     }
 
 
+    .place-stat-weather div img {
+        display: unset;
+    }
+
     .weather div div h2::after {
         display: none;
     }
