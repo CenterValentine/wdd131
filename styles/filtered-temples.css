@@ -124,7 +124,7 @@ figure {
 }
 
 .temple-cards {
-    margin: 1;
+
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr;
