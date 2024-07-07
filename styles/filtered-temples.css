@@ -108,7 +108,6 @@ main div {
     /* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr;
     row-gap: 1.25em;
-    flex-shrink: calc();
 
 }
 

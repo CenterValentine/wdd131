@@ -71,7 +71,7 @@
     }
 
     .temple-cards {
-        margin: 100;
+        margin: 0;
         text-align: left;
         display: grid;
         grid-template-columns: 1fr;
