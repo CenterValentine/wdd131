@@ -1,0 +1,132 @@
+@media screen and (max-width: 58rem) {
+
+    * {
+        /* font-family: 'Arial Narrow', Arial, sans-serif; */
+    }
+
+    main div {
+        grid-template-columns: 1fr;
+    }
+
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    #hamburger-menu {
+        display: unset;
+    }
+
+    .navigation button {
+        font-size: 3rem;
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        border: none;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color)
+    }
+
+    .start,
+    .navigation {
+        margin-right: unset;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .start a {
+        font-weight: 800;
+    }
+
+    .navigation .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .menu a {
+        /* padding: 1.25rem 40rem; */
+        display: none;
+    }
+
+    .show a {
+        padding: 1.25rem 40rem;
+        display: unset;
+    }
+
+    #hamburger-menu.open::before {
+        content: "x";
+        /* font-size: 50%; */
+        margin: auto;
+    }
+
+    .temple-cards {
+        margin: 100;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+        font-size: smaller;
+    }
+
+    .temple {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--stat-box-color);
+        width: 100%;
+        padding: 2rem;
+        border-radius: 4px;
+    }
+
+    .temple div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temple div div {
+        display: unset;
+        line-height: 0;
+    }
+
+    /* Card title */
+    .temple div div:nth-child(1) span {
+        font-size: 1.4rem;
+        font-weight: 700;
+        /* line-height: 1em; */
+    }
+
+    .temple div div:nth-child(1) {
+        padding-bottom: 1em;
+
+    }
+
+    .temple div div span {
+        font-weight: 650;
+        font-size: 1rem;
+    }
+
+
+    .temple img {
+        max-width: 35rem;
+        max-height: 15rem;
+        border-radius: 2px;
+
+    }
+
+
+
+
+
+
+}

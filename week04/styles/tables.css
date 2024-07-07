@@ -1,0 +1,52 @@
+/* :root {} */
+
+body {
+    padding: 5%
+}
+
+table {
+    width: 400px;
+    text-align: center;
+}
+
+thead {
+    background-color: #000;
+    color: white;
+
+}
+
+th {
+    padding: 1rem;
+}
+
+table {
+    /* background-color: black; */
+    /* color: white; */
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    padding: 1em 2rem;
+    border: none;
+    border-collapse: collapse;
+}
+
+
+tbody tr:nth-child(2) {
+    background-color: #eee;
+
+}
+
+.Pacho th:nth-child(2),
+.Pacho th:nth-child(3),
+.Pacho th:nth-child(4) {
+    background-color: rgb(42, 39, 39);
+    padding: 0.5em 1rem;
+}
+
+
+table caption {
+    caption-side: bottom;
+}
+
+
+.blank {
+    /* background-color: #000; */
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description"
+        content="view images of the temples of the church of jesus christ of latter-day saints, wdd131 assignment demonstrating responsive js, css web page, temple image viewing">
+    <meta author="David Valentine">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a class="start">Temple Album</a>
+            <button id="hamburger-menu" aria-label="Open Menu"></button>
+            <div class="menu">
+                <a class='active home reg' href="#">Home</a>
+                <a class='old reg' href="#">Old</a>
+                <a class='new reg' href="#">New</a>
+                <a class='large reg' href="#">Large</a>
+                <a class='small reg' href="#">Small</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <script type="module" src="scripts/filtered-temple-json.js"></script>
+        <div class="temple-cards">
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> </p>
+        <p id="lastModified">
+        </p>
+    </footer>
+    <script src="./scripts/getdates.js" defer></script>
+</body>
+<script src="scripts/filtered-temples.js" type="module" defer>
+</script>
+
+
+
+</html>
