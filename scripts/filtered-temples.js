@@ -30,7 +30,6 @@ function addActive(element) {
 
 
 
-
 import { temples } from './filtered-temple-json.js';
 
 dataToHTML(temples)

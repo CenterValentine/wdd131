@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <meta name="author" description="David V">
+    <meta name="description" description="A form page">
+    <link rel="stylesheet" href="/styles/form.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form method="get" action="review.html" class="review-form">
+            <fieldset>
+                <legend>Product Review</legend>
+                <select name="product-name" id="product" required>
+                    <option value="" disabled selected>
+                        <div>Choose a product</div>
+                    </option>
+                </select>
+                <div class="radio">
+                    <label><span>&star;</span><input type="radio" id="1-star" name="rating" value="&star;"
+                            required></label>
+                    <label><span>&star;&star;</span><input type="radio" id="2-star" name="rating" value="&star;&star;"
+                            required></label>
+                    <label><span>&star;&star;&star;</span><input type="radio" id="3-star" name="rating"
+                            value="&star;&star;&star;" required></label>
+                    <label><span>&star;&star;&star;&star;</span><input type="radio" id="4-star" name="rating"
+                            value="&star;&star;&star;&star;" required></label>
+                    <label><span>&star;&star;&star;&star;&star;</span><input type="radio" id="5-star" name="rating"
+                            value="&star;&star;&star;&star;&star;" required></label>
+                </div>
+                <label>
+                    <div>Date of Installation</div><input type="date" name="install-date" id="install-date" required>
+                </label>
+                <label>
+                    <div>Which features did you find useful in the product? <i>(check all that
+                            apply)</i></div>
+                </label><label><input type="checkbox" name="useful-features" id="durability"
+                        value="durability">Durability
+                </label>
+                <label><input type="checkbox" name="useful-features" id="ease-of-use" value="ease-of-use">Ease of Use
+                </label>
+                <label><input type="checkbox" name="useful-features" id="performance"
+                        value="performance">Performance</label>
+                <label><input type="checkbox" name="useful-features" id="design" value="design">Design</label>
+                <label class="textarea-review">
+                    <div>Written Review (optional)</div><textarea name="written-review" id="written-review"
+                        placeholder="Write a review..."></textarea>
+                </label>
+                <label>
+                    <div>Your Name (optional)</div>
+                    <input type="text" name="name" id="users-name">
+                </label>
+
+            </fieldset>
+            <input type="submit" id="review-counter" value="Share Review">
+        </form>
+    </main>
+    <footer class="bluetheme">
+        <div id="currentyear"></div>
+        <div id="lastModified"></div>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</body>
+
+</html>
