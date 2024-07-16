@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+:root {
+    --paragraph-font: 'Montserrat', sans-serif;
+    --heading-font: 'Raleway', sans-serif;
+    --fun: 'Tiny5', sans-serif;
+    --first-font: 'Poppins', sans-serif;
+    --second-font: 'Zeyada', sans-serif;
+    --primary-color: #4da1f6;
+    --secondary-color: #fcd0a1;
+    --abstract-color: #13293d;
+    --tertiary-color: #f2f2f2;
+}
+
+
+.fonts p:first-child {
+    font-family: var(--first-font);
+}
+
+
+.fonts p:nth-child(2) {
+    font-family: var(--second-font);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--paragraph-font), 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+caption {
+    font-size: .5rem;
+    color: gray;
+    text-align: center;
+}
+
+
+header {
+    padding: 30px 0px 0px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #041527;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding: 1em 3em;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    background-color: #0d559d;
+    text-decoration: none;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+main .cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.bluetheme {
+    background-color: #0d559d;
+    color: white;
+    padding: .25em;
+    border-radius: 5px;
+
+}
+
+.card {
+
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    border-style: solid 2px;
+    margin: 1em;
+    flex: 50%;
+    height: 100%;
+}
+
+
+.card:not(.bluetheme) div {
+    padding: 1em;
+}
+
+.card section {
+    max-width: 1rem;
+}
+
+.color p:first-child {
+    color: var(--primary-color);
+}
+
+.color p:nth-child(2) {
+    color: var(--secondary-color);
+}
+
+.color p:nth-child(3) {
+    color: var(--abstract-color);
+}
+
+.other div {
+    margin: auto;
+    font-size: .5rem;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.other div:nth-child(2) {
+    font-size: 3rem;
+}
+
+.other .bluetheme {
+    max-width: 90%;
+    margin: auto;
+}
+
+.signature {
+    font-family: var(--fun);
+}
+
+footer {
+    padding: 1em;
+    color: var(--tertiary-color)
+}
