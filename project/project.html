@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Valentine Family Website Home Page</title>
+    <meta name="author" content="David Valentine">
+    <meta name="description" content="The home page website for the Valentine Family">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-mobile.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="mainheader"><span>Search</span>|<span>Login</span></div>
+        <div class="sublines">
+            <div class="subline"></div>
+            <div class="h1title h1block">
+                <span>The</span><br>
+                <h1>Valentine Family</h1>
+            </div>
+            <div class="subline"></div>
+        </div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="budgets.html">Budget</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="project">
+        <section class="hero">
+            <div>
+                <h1>Meet the team</h1>
+            </div>
+            <div class="hero-start">
+
+                <figure class="image-beauty hero-image">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./images/family-photo.jpeg" width="600">
+                        <source media="(min-width: 768px)" srcset="./images/family-photo-mobile.jpeg" height="600">
+                        <img src="./images/family-photo-medium.jpeg" alt="The Valentine Family" height="600">
+                    </picture>
+                    <figcaption>The Valentine Family</figcaption>
+                </figure>
+                <aside>
+                    <figure class="image-beauty">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="./images/me2.png" width="200" height="150">
+                            <source media="(min-width: 768px)" srcset="./images/me2.png" width="200">
+                            <img src="./images/me2.png" alt="Daddy Shark" width="200">
+                        </picture>
+                        <figcaption>Daddy Shark</figcaption>
+                    </figure>
+
+                    <figure class="image-beauty">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="./images/v1.png" width="200" height="150">
+                            <source media="(min-width: 768px)" srcset="./images/v1.png" width="200">
+                            <img src="./images/v1.png" alt="Momma Shark" width="200">
+                        </picture>
+                        <figcaption>Momma Shark</figcaption>
+                    </figure>
+
+                    <figure class="image-beauty">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="./images/baby.PNG" width="200" height="150">
+                            <source media="(min-width: 768px)" srcset="./images/baby.PNG" width="200" height="150">
+                            <img src="./images/baby.PNG" alt="Baby Shark" width="200" height="250">
+                        </picture>
+                        <figcaption>Baby Shark</figcaption>
+                    </figure>
+                </aside>
+            </div>
+        </section>
+        <div class="sublines">
+            <div class="subline"></div>
+            <div class="h1title h1block h2block sectionstarter">
+                <h2>Family Plans</h1>
+            </div>
+            <div class="subline"></div>
+        </div>
+        <section class="family-plans">
+            <h1>Family Calendar</h1>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDenver&bgcolor=%23dae8f6&title=The%20Valentine%20Family%20&src=ZmFtaWx5MTczOTkyMzUzMTkxNzMzMTYwOTdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23A79B8E"
+                 width="900" height="600" frameborder="0" scrolling="no"></iframe>
+            <h1>Violets's Calendar</h1>
+            <iframe src="https://calendar.google.com/calendar/embed?src=purplepal96.8%40gmail.com&ctz=America%2FDenver"
+                 width="850" height="600" frameborder="0" scrolling="no"></iframe>
+            <h1>David's Calendar</h1>
+            <iframe class="calendar cthree"
+                src="https://calendar.google.com/calendar/embed?src=centervalentine%40gmail.com&ctz=America%2FDenver&mode=WEEK&showPrint=0&showTabs=0"
+                 width="850" height="300" frameborder="0" scrolling="no"></iframe>
+
+        </section>
+    </main>
+    <footer>
+        <div class="sublines sl2">
+            <div class="subline"></div>
+            <div class="h1title h1block h2block s-end">
+                <h2>Sincerly, </h2>
+            </div>
+            <div class="subline"></div>
+        </div>
+        <section class="footer ftheme">
+            <div class="h1title">
+                <h2>The Valentines</h2>
+            </div>
+            <div id="currentyear"></div>
+            <div id="lastModified"></div>
+    </footer>
+</body>
+<script src="./scripts/getdates.js" defer></script>
+<script src="scripts/project.js" defer></script>
+
+</html>

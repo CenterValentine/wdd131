@@ -1,0 +1,604 @@
+{
+    "data": [
+        {
+            "month": "January",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "February",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "March",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "April",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "May",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "June",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "July",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "August",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "September",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "October",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "November",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        },
+        {
+            "month": "December",
+            "monthData": [
+                {
+                    "type": "mom",
+                    "expense": 0,
+                    "name": "Momma"
+                },
+                {
+                    "type": "dad",
+                    "amount": 0,
+                    "name": "Dadda"
+                },
+                {
+                    "type": "both",
+                    "amount": 0,
+                    "name": "Both"
+                },
+                {
+                    "type": "children",
+                    "amount": 0,
+                    "name": "Children"
+                },
+                {
+                    "type": "groceries",
+                    "amount": 0,
+                    "name": "Groceries"
+                },
+                {
+                    "type": "others",
+                    "amount": 0,
+                    "name": "Others"
+                },
+                {
+                    "type": "auto",
+                    "amount": 0,
+                    "name": "Auto"
+                },
+                {
+                    "type": "travel",
+                    "amount": 0,
+                    "name": "Travel"
+                },
+                {
+                    "type": "total",
+                    "amount": 0,
+                    "name": "Total"
+                }
+            ]
+        }
+    ]
+}

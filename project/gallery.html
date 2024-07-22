@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Valentine Family Website Home Page</title>
+    <meta name="author" content="David Valentine">
+    <meta name="description" content="The home page website for the Valentine Family">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-mobile.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="mainheader"><span>Search</span>|<span>Login</span></div>
+        <div class="sublines">
+            <div class="subline"></div>
+            <div class="h1title h1block">
+                <span>The</span><br>
+                <h1>Valentine Family</h1>
+            </div>
+            <div class="subline"></div>
+        </div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="./project.html">Home</a></li>
+                <li><a href="budgets.html">Budget</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="gallery">
+        <div class="sublines sl1">
+            <div class="subline"></div>
+            <div class="h1title h1block h2block budget-width">
+                <h2>Family Photos</h1>
+            </div>
+            <div class="subline"></div>
+        </div>
+        <section class="gallery-start">
+            <div>
+                <h2 class="active-selection"></h2>
+                <script type="module" src=".scripts/gallery-json.js"></script>
+                <div class="gallery-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="sublines sl2">
+            <div class="subline"></div>
+            <div class="h1title h1block h2block s-end">
+                <h2>Sincerly, </h2>
+            </div>
+            <div class="subline"></div>
+        </div>
+        <section class="footer ftheme">
+            <div class="h1title">
+                <h2>The Valentines</h2>
+            </div>
+            <div id="currentyear"></div>
+            <div id="lastModified"></div>
+    </footer>
+</body>
+<script src="../scripts/getdates.js" defer></script>
+<script src="scripts/project.js" defer></script>
+<script src="scripts/gallery.js" type="module"></script>
+
+</html>

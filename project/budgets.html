@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Valentine Family Website Home Page</title>
+    <meta name="author" content="David Valentine">
+    <meta name="description" content="The home page website for the Valentine Family">
+    <link rel="stylesheet" href="styles/project.css">
+    <!-- <link rel="stylesheet" href="styles/project-mobile.css"> -->
+
+</head>
+<header>
+    <div class="mainheader"><span>Search</span>|<span>Login</span></div>
+    <div class="sublines">
+        <div class="subline"></div>
+        <div class="h1title h1block">
+            <span>The</span><br>
+            <h1>Valentine Family</h1>
+        </div>
+        <div class="subline"></div>
+    </div>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="./project.html">Home</a></li>
+            <li><a href="budgets.html">Budget</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main class="budgets">
+    <div class="sublines sl1">
+        <div class="subline"></div>
+        <div class="h1title h1block h2block budget-width">
+            <h2>Budget Planner </h1>
+        </div>
+        <div class="subline"></div>
+    </div>
+    <div class="budget">
+        <section class="budget-form-start">
+            <div>
+                <form id="budget-form" class="budget-form" autocomplete="off">
+                    <fieldset>
+                        <legend>Update Expense</legend>
+                        <!-- instructions for form -->
+                        <p>Fill out this form to update the adjacent budget table.</p>
+                        <fieldset>
+                            <legend>Select Month:</legend>
+                            <select name="budget-month" id="month" required>
+                                <option value="" disabled selected>
+                                    <div>Choose a month</div>
+                                </option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="checkboxes">
+                            <legend>
+                                Select Budget(s):
+                            </legend>
+                            <p>Select any number of budgets to add an expense to.</p>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="mom" value="mom">Momma Shark
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="dad" value="dad">Pappa Shark
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="both" value="both">Momma + Pappa Shark
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="children" value="children">Baby Shark
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="grocery" value="grocery">Grocery
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="other" value="other">Others
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="auto" value="auto">Auto
+                            </label>
+                            <label>
+                                <input type="checkbox" name="select-budget" id="travel" value="travel">Travel
+                            </label>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>Expense Amount:</legend>
+                            <label>
+                                <span>$</span>
+                                <input type="number" name="budget-amount" id="budget-amount" placeholder="0.00"
+                                    required>
+                            </label>
+                        </fieldset>
+                    </fieldset>
+                    <button id="budget-update" type="submit">Update Budget</button>
+                </form>
+        </section>
+        <section class="budget-table-start">
+            <table class="budget-table">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th id="mom">Momma Shark</th>
+                        <th id="dad">Pappa Shark</th>
+                        <th id="both">Momma + Pappa Shark</th>
+                        <th id="children">Baby Shark</th>
+                        <th id="grocery">Groceries</th>
+                        <th id="other">Others</th>
+                        <th id="auto">Auto</th>
+                        <th id="travel">Travel</th>
+                        <th id="total">Total</th>
+                    </tr>
+                </thead>
+                <tbody class="budget-amounts">
+                    <tr>
+                        <td>Budget Amounts</td>
+                        <td id="mom-amount">$200</td>
+                        <td id="dad-amount">$200</td>
+                        <td id="both-amount">$200</td>
+                        <td id="children-amount">$200</td>
+                        <td id="grocery-amount">$360</td>
+                        <td id="other-amount">$200</td>
+                        <td id="auto-amount">$300</td>
+                        <td id="travel-amount">$80</td>
+                        <td id="total-amount">$1940</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr id="january">
+                        <td>January</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="february">
+                        <td>February</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="march">
+                        <td>March</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="april">
+                        <td>April</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="may">
+                        <td>May</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="june">
+                        <td>June</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="july">
+                        <td>July</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="august">
+                        <td>August</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="september">
+                        <td>September</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="october">
+                        <td>October</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="november">
+                        <td>November</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                    <tr id="december">
+                        <td>December</td>
+                        <td id="mom">$0</td>
+                        <td id="dad">$0</td>
+                        <td id="both">$0</td>
+                        <td id="children">$0</td>
+                        <td id="grocery">$0</td>
+                        <td id="other">$0</td>
+                        <td id="auto">$0</td>
+                        <td id="travel">$0</td>
+                        <td id="total">$0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="sublines sl2">
+        <div class="subline"></div>
+        <div class="h1title h1block h2block s-end">
+            <h2>Sincerly, </h2>
+        </div>
+        <div class="subline"></div>
+    </div>
+    <section class="footer ftheme">
+        <div class="h1title">
+            <h2>The Valentines</h2>
+        </div>
+        <div id="currentyear"></div>
+        <div id="lastModified"></div>
+</footer>
+<script src="scripts/getdates.js" defer></script>
+<script src="scripts/project.js" defer></script>
+<script src="scripts/budgets.js" defer></script>
+
+</html>

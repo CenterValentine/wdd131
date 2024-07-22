@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root {
+    --background-color: #dae8f6;
+    --secondary-color: #fbbe54c6;
+    --accent-color: #fbbe549f;
+    --accent-hover: #f6cb819f;
+
+    --primary-font: 'Poppins', sans-serif;
+    --primary-font-size: 1vw;
+    --primary-font-size-small: .75vw;
+    --primary-font-size-large: 1.5vw;
+
+    --secondary-font: 'Zeyada', sans-serif;
+    --secondary-font-color: black;
+
+    --tertiary-font: 'Abel', sans-serif;
+    --tertiary-font-size: 1.5vw;
+
+    --title-font-size: 3.5vw;
+    --subtitle-font-size: 3vw;
+    --title-case-size: 5.5vw;
+
+    --primary-font-color: white;
+
+    --background-font-color: #6c747c;
+}
+
+* {
+    font: var(--primary-font-size) var(--primary-font);
+    /* padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    color: var(--secondary-font-color) */
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainheader {
+    margin: auto;
+    background-color: var(--primary-color);
+    color: var(--secondary-font-color);
+    width: 90%;
+    height: 5rem;
+    color: var(--background-font-color)
+}
+
+.mainheader span {
+    padding: 0 2rem;
+}
+
+.sublines {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.sl1 {
+    padding-top: 5rem;
+    background-color: var(--primary-font-color);
+}
+
+.sl2 {
+    padding-top: 5rem;
+    background-color: var(--primary-font-color);
+
+}
+
+.subline {
+    background-color: var(--secondary-color);
+    color: var(--primary-font-color);
+    height: .35rem;
+    width: 50%;
+}
+
+.h1title * {
+    font-size: var(--title-font-size);
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    text-align: center;
+    line-height: 0;
+    margin: 0;
+}
+
+.h1title span {
+    margin-left: -8rem;
+    color: var(--background-font-color)
+}
+
+.h1block {
+    /* offsets h1block */
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.75rem;
+    margin-left: -1rem;
+    /* Buffer between text and subline */
+    width: 21vw;
+    /* lock h1 */
+    text-wrap: nowrap;
+    /* bring to front */
+    z-index: 1;
+
+}
+
+.h2block {
+    /* keep sublines resing on line */
+    margin-top: 0;
+    /* background-color: var(--background-color); */
+}
+
+.budget-width {
+    width: unset;
+    background-color: var(--primary-font-color);
+}
+
+/* V in Valentine */
+.h1title h1::first-letter {
+    font-size: var(--title-case-size);
+    margin-top: 1rem;
+}
+
+nav {
+    background-color: var(--primary-font-color);
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* helps center nav */
+    width: 100%;
+    /* pushes nav down */
+    /* margin-top: 2rem; */
+    margin: 2vw 2vw 0 0;
+    padding-inline-start: 0;
+    /* top and bottom margin */
+}
+
+.navigation li {
+    /* padding controls nav button height */
+    padding: .25vw 1.75vw;
+    border: solid .1px var(--accent-color);
+    border-radius: 16px;
+    margin: .10rem 1rem;
+    background-color: var(--accent-color);
+}
+
+.navigation li:hover {
+    background-color: var(--accent-hover);
+}
+
+main {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+section {
+    background-color: var(--primary-font-color);
+    margin: 0;
+    width: 100%;
+    /* min-height or hieght managed by page */
+}
+
+.project section {
+    min-height: 750px;
+}
+
+section div {
+    /* padding: 5rem; */
+    width: 100%;
+}
+
+
+/* ------------------ */
+/* Hero Section */
+
+.hero {
+    background-color: var(--primary-font-color);
+    padding-bottom: 6rem;
+}
+
+.hero div {
+    display: flex;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: var(--title-font-size);
+    font-family: var(--tertiary-font);
+    color: var(--background-font-color);
+    padding: 3rem 0;
+    line-height: 0;
+}
+
+/* image style */
+img {
+    object-fit: cover;
+    /* shadow */
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.hero-start {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    /* padding: 4rem; */
+}
+
+.hero-start .hero-image {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    object-fit: stretch;
+    /* padding-left: 6rem; */
+}
+
+figcaption {
+    /* font-size: .5rem; */
+    color: var(--background-font-color);
+    text-align: center;
+}
+
+img {
+    display: block;
+}
+
+.image-beauty {
+    border-radius: 6px;
+}
+
+/* ------------------ */
+/* Family Plans */
+
+
+.family-plans {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    padding: 2rem 0 4rem 0;
+}
+
+.family-plans h1 {
+    font-size: var(--tertiary-font-size);
+    padding: 2rem 0;
+}
+
+/* ------------------ */
+/* Budget Planner */
+
+.budgets {
+    background-color: var(--primary-font-color);
+    padding-bottom: 4rem;
+}
+
+.budget {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-form-start {
+
+    padding: 4rem 1rem 0 2rem;
+    align-self: baseline;
+    flex: 1;
+}
+
+fieldset {
+    border: solid 1px var(--secondary-color);
+    margin: 1rem .75rem 0;
+}
+
+.budget-form-start button {
+    background-color: var(--secondary-color);
+    color: var(--background-font-color);
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 1rem;
+
+}
+
+label {
+    display: block;
+    margin-bottom: .10rem;
+}
+
+.budget-form fieldset {
+    padding: 1rem .25rem 2rem .25rem;
+    /* border: solid 1px var(--secondary-color); */
+}
+
+.budget-form p {
+    font-size: var(--primary-font-size-small);
+}
+
+
+/* ------------------ */
+/* Budget Table */
+.budget-table-start {
+    flex: 3;
+    padding: 4rem 2rem 2rem 1rem;
+}
+
+/* .budget-table thead {} */
+
+.budget-table th {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.budget-table tbody {}
+
+.budget-table td {
+    padding: 1rem;
+
+}
+
+.budget-table tr:nth-child(odd):not(.budget-table thead tr, .budget-table .budget-amounts tr) {
+    background-color: var(--background-color);
+}
+
+/* ------------------ */
+/* Gallery */
+
+.gallery {
+    background-color: var(--primary-font-color);
+}
+
+.gallery-start {
+    padding: 4rem 4rem 4rem;
+}
+
+.gallery-cards {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: var(--primary-font-size-small);
+
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 4rem 0 0 0;
+    max-width: 40rem;
+    /* max-height: 80rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.photo img {
+    max-width: 40rem;
+    max-height: 90rem;
+    border-radius: 2px;
+}
+
+
+.photo .description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    bottom: -100%;
+    opacity: 0;
+    transition: transform 0.75s ease-in-out, opacity 1.5s ease-in-out;
+    transform: translateY(100%);
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* .photo::before {
+
+} */
+
+.photo:hover .description,
+.photo:hover .description:hover {
+    transform: translateY(0);
+    bottom: 0%;
+    left: 0;
+    opacity: 1;
+}
+
+.photo .description:last-child {
+    padding-bottom: 2rem;
+}
+
+.photo .description div {
+    display: unset;
+    width: 100%;
+}
+
+/* Card title */
+.photo span {
+    font-size: var(--primary-font-size-small);
+    line-height: 1.5em;
+}
+
+.photo .description div span {
+    font-weight: 650;
+    font-size: var(--primary-font-size)
+}
+
+.photo img {
+    border-radius: 2px;
+}
+
+
+
+
+/* ------------------ */
+/* footer */
+
+.s-end {
+    width: 11vw;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    text-align: center;
+    background-color: var(--background-color);
+
+}
+
+.footer .h1title {
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.footer div {
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding: 1em;
+    font-size: var(--primary-font-size-large);
+}
