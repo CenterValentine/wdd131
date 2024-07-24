@@ -83,11 +83,21 @@ header {
 
 .sublines {
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .sublineshero {
     margin-top: 7vh;
+    
+}
+
+.slhero section {
+
+}
+
+.slhero {
+    padding-bottom: 0rem;
+    background-color: var(--primary-font-color);
+    max-height: 10vh;
 }
 
 
@@ -215,7 +225,7 @@ section {
 }
 
 .project section {
-    min-height: 55vh;
+    min-height: 30vh;
 }
 
 section div {
@@ -236,7 +246,15 @@ section div {
     /* padding-bottom: 5vw; */
     /* justify-content: center; */
     align-items: center;
+    margin-bottom: 20vh;
+    
 }
+
+/* .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
 
 .hero h1 {
     font-size: var(--title-font-size);
@@ -270,7 +288,7 @@ section div {
     max-width: 1000px;
     justify-content: center;
 
-
+    border-bottom: 1px solid transparent;
 }
 
 .hero-image {
@@ -349,7 +367,7 @@ img {
     align-items: center;
     margin-top: 0;
     width: 100%;
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0 15rem 0;
 }
 
 .family-plans h1 {
